@@ -65,7 +65,6 @@ gulp.task('less',function(){
         .pipe(autoprefixer('last 10 versions','ie 8'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(config.src_css))
-        .pipe(browserSync.reload({stream:true}))
 });
 //复制css
 gulp.task("css",function(){
