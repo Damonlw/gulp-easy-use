@@ -4,6 +4,7 @@
 在有node环境下：
 npm install gulp -g // 先全局安装
 npm install gulp -S //再到指定目录下安装，这是个坑，全局和本地都得装
+npm install
 ```
 
 **gulp实用插件**
